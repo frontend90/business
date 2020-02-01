@@ -1,0 +1,53 @@
+.submenu 
+  padding-top: 20px 
+  & .block 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    & .menu  
+      & a 
+        +ral_reg
+        font-size: 14px 
+        color: #222328
+        margin-left: 20px 
+        &:first-of-type
+          margin-left: 0
+    & .subscribe
+      display: flex
+      align-items: center
+      & p 
+        +ral_med
+        font-size: 14px 
+        color: #141414
+      & .input 
+        margin-left: 15px 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        border: 2px solid rgba(#3a3d4b,0.1)
+        border-radius: 40px 
+        width: 370px 
+        height: 50px 
+        & input 
+          padding-left: 20px 
+          +ral_med
+          font-size: 14px 
+          width: 100% 
+        & .btn
+          margin-right: 5px 
+          & button 
+            background: #141414
+            border-radius: 40px 
+            width: 100px 
+            height: 40px 
+            +ral_med
+            font-size: 11px 
+            color: #ffffff
+            text-transform: uppercase
+            letter-spacing: 1.65px 
+  & .line 
+    width: 100%
+    height: 2px 
+    background: rgba(#3a3d4b,0.1)
+    margin-top: 25px 
+      

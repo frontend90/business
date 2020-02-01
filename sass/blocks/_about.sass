@@ -1,0 +1,72 @@
+.about 
+  padding-top: 100px 
+  & .title 
+    text-align: center
+    & h5 
+      margin: auto
+      max-width: 755px 
+      font-size: 32px 
+      line-height: 42px 
+      color: #222328
+    & p 
+      margin: auto
+      margin-top: 30px
+      max-width: 540px 
+      line-height: 28px 
+  & .about-slider-wrap
+    position: relative
+    margin-top: 75px 
+    & .about-slider
+      z-index: 2
+      position: relative
+      & .slick-list 
+        overflow: hidden
+        & .slick-track
+          display: flex 
+          & .block 
+            text-align: center
+            & img 
+              box-shadow: 0 0 40px rgba(#3a3d4b,0.7)
+    & .img 
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      z-index: 1
+    & .btn 
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      display: flex
+      justify-content: space-between
+      width: 100%
+      z-index: 2
+      padding: 0 100px 
+      & button 
+        & .fas 
+          +solid 
+          color: #d4d4d5
+          font-size: 25px 
+  & .content
+    margin-top: 140px 
+    display: flex
+    justify-content: space-between
+    & .box 
+      max-width: 400px 
+      & h5 
+        text-transform: uppercase
+        +ral_med
+        font-size: 14px 
+        letter-spacing: 1.4px 
+        color: #222328
+      & p 
+        margin-top: 20px 
+        line-height: 28px 
+  & .line 
+    width: 100%
+    height: 2px 
+    background: rgba(#3a3d4b,0.1)
+    margin-top: 120px    
+
+
+  
