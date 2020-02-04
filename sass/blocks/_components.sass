@@ -1,0 +1,90 @@
+.components 
+  padding-top: 100px 
+  padding-bottom: 150px 
+  & .title 
+    text-align: center
+    color: #222328
+    & h5 
+      text-transform: uppercase
+      +ral_med
+      font-size: 14px 
+      letter-spacing: 1.4px 
+    & p 
+      margin: auto
+      margin-top: 20px 
+      font-size: 42px 
+      line-height: 52px 
+      max-width: 955px 
+  & .cards 
+    margin-top: 55px 
+    display: flex
+    justify-content: space-between
+    text-align: center
+    & .card 
+      width: 472px 
+      transition: 0.3s
+      border-radius: 7px 
+      &:hover
+        box-shadow: 0 10px 40px rgba(#3a3d4b,0.2)
+        border: none 
+      & .img 
+        height: 303px 
+      & .desc 
+        padding-top: 35px 
+        & h5 
+          +ral_reg
+          font-size: 22px 
+          color: #222328
+        & p 
+          margin: auto
+          margin-top: 10px
+          max-width: 300px 
+          font-size: 16px 
+          line-height: 26px  
+    & .one 
+      & .img 
+        width: 100% 
+        & img 
+          width: 100% 
+          height: 100% 
+          border-top-left-radius: 7px 
+          border-top-right-radius: 7px 
+      & .desc 
+        border-left: 1px solid rgba(#3a3d4b,0.1)
+        border-bottom: 1px solid rgba(#3a3d4b,0.1)
+        border-right: 1px solid rgba(#3a3d4b,0.1)
+        border-bottom-left-radius: 7px 
+        border-bottom-right-radius: 7px 
+        & .btn 
+          padding-top: 20px 
+          padding-bottom: 45px 
+          & button 
+            width: 330px 
+            height: 55px 
+            border: 1px solid rgba(#3a3d4b,0.1)
+            border-radius: 40px 
+            text-transform: uppercase
+            +ral_med
+            font-size: 12px 
+            letter-spacing: 1.8px 
+            color: #141414
+            transition: 0.3s
+            &:hover
+              background: #1be938
+              box-shadow: 0 20px 40px rgba(#1be938,0.5)
+    & .two
+      border: 1px solid rgba(#3a3d4b,0.1)
+      border-radius: 7px     
+      & .img 
+        display: flex
+        align-items: center
+        justify-content: center
+      & .link   
+        padding-top: 20px  
+        & a 
+          text-transform: uppercase
+          +ral_med
+          font-size: 12px 
+          letter-spacing: 1.8px 
+          color: #141414
+          text-decoration: underline

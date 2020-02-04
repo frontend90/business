@@ -399,4 +399,149 @@ body {
   background: rgba(58, 61, 75, 0.1);
   margin-top: 120px;
 }
+
+.components {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.components .title {
+  text-align: center;
+  color: #222328;
+}
+
+.components .title h5 {
+  text-transform: uppercase;
+  font-family: 'Raleway-Medium';
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+.components .title p {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 42px;
+  line-height: 52px;
+  max-width: 955px;
+}
+
+.components .cards {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.components .cards .card {
+  width: 472px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 7px;
+}
+
+.components .cards .card:hover {
+  -webkit-box-shadow: 0 10px 40px rgba(58, 61, 75, 0.2);
+          box-shadow: 0 10px 40px rgba(58, 61, 75, 0.2);
+  border: none;
+}
+
+.components .cards .card .img {
+  height: 303px;
+}
+
+.components .cards .card .desc {
+  padding-top: 35px;
+}
+
+.components .cards .card .desc h5 {
+  font-family: 'Raleway-Regular';
+  font-size: 22px;
+  color: #222328;
+}
+
+.components .cards .card .desc p {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.components .cards .one .img {
+  width: 100%;
+}
+
+.components .cards .one .img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.components .cards .one .desc {
+  border-left: 1px solid rgba(58, 61, 75, 0.1);
+  border-bottom: 1px solid rgba(58, 61, 75, 0.1);
+  border-right: 1px solid rgba(58, 61, 75, 0.1);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.components .cards .one .desc .btn {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+.components .cards .one .desc .btn button {
+  width: 330px;
+  height: 55px;
+  border: 1px solid rgba(58, 61, 75, 0.1);
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-family: 'Raleway-Medium';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  color: #141414;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.components .cards .one .desc .btn button:hover {
+  background: #1be938;
+  -webkit-box-shadow: 0 20px 40px rgba(27, 233, 56, 0.5);
+          box-shadow: 0 20px 40px rgba(27, 233, 56, 0.5);
+}
+
+.components .cards .two {
+  border: 1px solid rgba(58, 61, 75, 0.1);
+  border-radius: 7px;
+}
+
+.components .cards .two .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.components .cards .two .link {
+  padding-top: 20px;
+}
+
+.components .cards .two .link a {
+  text-transform: uppercase;
+  font-family: 'Raleway-Medium';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  color: #141414;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
