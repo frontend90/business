@@ -1,0 +1,102 @@
+.features
+  padding: 100px 0
+  & .title 
+    display: flex
+    justify-content: space-between
+    & .content 
+      & p
+        font-size: 42px 
+        line-height: 52px 
+        color: #222328
+        margin: auto
+        max-width: 610px
+      & h5 
+        margin-top: 20px 
+        font-size: 18px 
+        color: rgba(#3a3d4b,0.5)
+    & .btn 
+      & button 
+        width: 210px 
+        height: 50px 
+        border: 1px solid rgba(#3a3d4b,0.1)
+        border-radius: 40px 
+        text-transform: uppercase
+        +ral_semi
+        font-size: 12px 
+        letter-spacing: 1.8px 
+        color: #141414
+        transition: 0.3s
+        &:hover
+          background: #1be938
+          box-shadow: 0 20px 40px rgba(#1be938,0.5)
+  & .line 
+    width: 100%
+    height: 1px 
+    background: rgba(#3a3d4b,0.1)
+    margin: 100px 0
+  & .wrap 
+    display: flex
+    justify-content: space-between
+    & .left-block
+      & .box 
+        margin-top: 50px 
+        border-radius: 7px 
+        transition: 0.3s
+        border: 1px solid transparent 
+        padding: 30px 
+        cursor: pointer
+        &:hover
+          border: 1px solid rgba(#3a3d4b,0.3)
+        &:first-of-type
+          margin-top: 0
+        & h5 
+          text-transform: uppercase
+          +ral_semi
+          font-size: 14px 
+          letter-spacing: 1.4px 
+          color: #141414
+        & p 
+          margin-top: 15px 
+          line-height: 28px 
+          max-width: 255px 
+    & .wrap-slider
+      position: relative
+      & .features-slider
+        width: 367px 
+        position: relative
+        z-index: 2
+        & .slick-list 
+          overflow: hidden
+          & .slick-track
+            display: flex 
+            align-items: center
+            justify-content: center
+            height: 754px 
+            & .features-block
+              text-align: center
+              & img 
+                box-shadow: 0 20px 40px rgba(#3a3d4b,0.7)
+      & .slick-dots 
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 30px 
+        & li 
+          list-style: none 
+          margin: 0 10px 
+          & button 
+            font-size: 0
+            width: 10px 
+            height: 10px 
+            border-radius: 50%
+            border: 2px solid #d2d2d3
+        & .slick-active 
+          & button 
+            border: none 
+            background: #00071a
+      & .img
+        position: absolute
+        top: 0 
+        z-index: 1
+
+

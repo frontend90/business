@@ -1,0 +1,65 @@
+.testimonials
+  padding: 100px 0
+  background: #141414
+  & .title 
+    text-align: center
+    color: #ffffff
+    & h5 
+      text-transform: uppercase
+      +ral_semi
+      font-size: 14px 
+      letter-spacing: 1.4px 
+    & p 
+      margin: auto
+      margin-top: 20px 
+      font-size: 42px
+      line-height: 52px 
+      max-width: 925px 
+  & .wrap 
+    margin-top: 50px 
+    display: flex
+    justify-content: space-between
+    text-align: center
+    & .block 
+      width: 375px  
+      color: rgba(#ffffff,0.5)
+      & .content 
+        border: 1px solid rgba(#3a3d4b,0.3)
+        border-radius: 7px 
+        padding: 30px 
+        position: relative
+        &::before
+          content: ''
+          position: absolute
+          bottom: -10px
+          left: calc(50% - 4px)
+          background: rgba(#3a3d4b,0.3)
+          width: 1px 
+          height: 10px 
+          transform: rotate(-45deg)
+        &::after
+          content: ''      
+          position: absolute
+          bottom: -10px 
+          height: 10px 
+          width: 1px 
+          background: rgba(#3a3d4b,0.3)
+          right: calc(50% - 4px)
+          transform: rotate(45deg)
+        & p 
+          line-height: 28px 
+        & .brilliant
+          margin-top: 15px 
+      & .icon 
+        margin-top: 20px
+      & .author 
+        margin-top: 20px 
+        & h6 
+          font-size: 20px 
+        & p 
+          margin-top: 10px 
+          text-transform: uppercase
+          +ral_med
+          font-size: 12px 
+          letter-spacing: 1.8px 
+
