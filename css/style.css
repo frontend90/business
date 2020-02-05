@@ -314,6 +314,8 @@ body {
 .about .about-slider-wrap .about-slider {
   z-index: 2;
   position: relative;
+  width: 755px;
+  margin: auto;
 }
 
 .about .about-slider-wrap .about-slider .slick-list {
@@ -324,6 +326,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 370px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about .about-slider-wrap .about-slider .slick-list .slick-track .block {
@@ -331,8 +340,8 @@ body {
 }
 
 .about .about-slider-wrap .about-slider .slick-list .slick-track .block img {
-  -webkit-box-shadow: 0 0 40px rgba(58, 61, 75, 0.7);
-          box-shadow: 0 0 40px rgba(58, 61, 75, 0.7);
+  -webkit-box-shadow: 0 20px 30px rgba(58, 61, 75, 0.5);
+          box-shadow: 0 20px 30px rgba(58, 61, 75, 0.5);
 }
 
 .about .about-slider-wrap .img {
@@ -593,26 +602,39 @@ body {
   position: relative;
 }
 
-.testimonials .wrap .block .content::before {
+.testimonials .wrap .block .content .anchor {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+
+.testimonials .wrap .block .content .anchor::before {
   content: '';
   position: absolute;
-  bottom: -10px;
-  left: calc(50% - 4px);
   background: rgba(58, 61, 75, 0.3);
   width: 1px;
   height: 10px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+  left: 3px;
 }
 
-.testimonials .wrap .block .content::after {
+.testimonials .wrap .block .content .anchor::after {
   content: '';
   position: absolute;
-  bottom: -10px;
-  height: 10px;
-  width: 1px;
   background: rgba(58, 61, 75, 0.3);
-  right: calc(50% - 4px);
+  width: 1px;
+  height: 10px;
+  right: 3px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
@@ -772,8 +794,8 @@ body {
 }
 
 .features .wrap .wrap-slider .features-slider .slick-list .slick-track .features-block img {
-  -webkit-box-shadow: 0 20px 40px rgba(58, 61, 75, 0.7);
-          box-shadow: 0 20px 40px rgba(58, 61, 75, 0.7);
+  -webkit-box-shadow: 0 20px 30px rgba(58, 61, 75, 0.5);
+          box-shadow: 0 20px 30px rgba(58, 61, 75, 0.5);
 }
 
 .features .wrap .wrap-slider .slick-dots {
