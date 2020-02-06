@@ -989,4 +989,209 @@ body {
   background: #141414;
   color: #ffffff;
 }
+
+.blog .blog-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .blog-wrap .left {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+
+.blog .blog-wrap .left img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog .blog-wrap .left .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.blog .blog-wrap .left .overlay h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Raleway-SemiBold';
+  letter-spacing: 1.8px;
+}
+
+.blog .blog-wrap .left .overlay p {
+  margin-top: 20px;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.blog .blog-wrap .left .overlay .btn {
+  margin-top: 30px;
+}
+
+.blog .blog-wrap .left .overlay .btn button {
+  width: 200px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Raleway-SemiBold';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blog .blog-wrap .left .overlay .btn button:hover {
+  background: #ffffff;
+  color: #141414;
+}
+
+.blog .blog-wrap .right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+.blog .blog-wrap .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog .blog-wrap .right .overlay {
+  position: absolute;
+  top: 50%;
+  left: 115px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.blog .blog-wrap .right .overlay h5 {
+  text-transform: uppercase;
+  font-family: 'Raleway-SemiBold';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+}
+
+.blog .blog-wrap .right .overlay p {
+  margin-top: 20px;
+  font-size: 42px;
+  line-height: 52px;
+  max-width: 450px;
+}
+
+.blog .blog-wrap .right .overlay .btn {
+  margin-top: 30px;
+}
+
+.blog .blog-wrap .right .overlay .btn button {
+  width: 250px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Raleway-SemiBold';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blog .blog-wrap .right .overlay .btn button:hover {
+  background: #ffffff;
+  color: #141414;
+}
+
+.blog .main-menu {
+  padding: 30px;
+  background: #141414;
+}
+
+.blog .main-menu a {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.blog .main-menu a:first-of-type {
+  margin-left: 0;
+}
+
+.blog .line {
+  width: 100%;
+  height: 1px;
+  background: #3a3d4b;
+}
+
+.contacts {
+  padding-top: 50px;
+  background: #141414;
+}
+
+.contacts .contacts-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.contacts .contacts-wrap .block h5 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Raleway-SemiBold';
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  margin-bottom: 20px;
+}
+
+.contacts .contacts-wrap .block a {
+  display: block;
+  color: #8c8f94;
+  font-size: 14px;
+  line-height: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contacts .contacts-wrap .block a:hover {
+  color: #ffffff;
+}
+
+.contacts .contacts-wrap .block .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts .contacts-wrap .block .social a {
+  margin-left: 20px;
+}
+
+.contacts .contacts-wrap .block .social a:first-of-type {
+  margin-left: 0;
+}
+
+.contacts .contacts-wrap .block .social a .fab {
+  font-family: 'fa-brands-400';
+  font-size: 18px;
+}
+
+.contacts .line {
+  width: 100%;
+  height: 1px;
+  background: rgba(58, 61, 75, 0.2);
+}
 /*# sourceMappingURL=style.css.map */
